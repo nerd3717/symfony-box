@@ -6,6 +6,11 @@
         "ext-ctype": "*",
         "ext-iconv": "*",
         "sensio/framework-extra-bundle": "^5.1",
+        "sonata-project/admin-bundle": "^3.51",
+        "sonata-project/doctrine-orm-admin-bundle": "^3.9",
+        "sonata-project/media-bundle": "^3.20",
+        "sonata-project/user-bundle": "^4.4",
+        "symfony/apache-pack": "^1.0",
         "symfony/asset": "4.3.*",
         "symfony/console": "4.3.*",
         "symfony/dotenv": "4.3.*",
@@ -75,7 +80,7 @@
     },
     "extra": {
         "symfony": {
-            "allow-contrib": false,
+            "allow-contrib": true,
             "require": "4.3.*"
         }
     }
